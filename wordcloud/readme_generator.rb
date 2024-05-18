@@ -1,11 +1,11 @@
 # require_relative "./cloud_types"
 
 class ReadmeGenerator
-  WORD_CLOUD_URL = 'https://raw.githubusercontent.com/trinib/word-cloud/main/wordcloud/wordcloud.png'
+  WORD_CLOUD_URL = 'https://raw.githubusercontent.com/wrdelmanto/word-cloud/main/wordcloud/wordcloud.png'
   ADDWORD = 'add'
   SHUFFLECLOUD = 'shuffle'
   INITIAL_COUNT = 0
-  USER = "trinib"
+  USER = "wrdelmanto"
 
   def initialize(octokit:)
     @octokit = octokit
